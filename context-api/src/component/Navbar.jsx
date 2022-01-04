@@ -1,6 +1,5 @@
-import { useContext } from "react"
-import { AuthContext } from "../context/AuthContext"
-
+import { useContext } from "react";
+import { AuthContext } from "../context/AuthContext";
 
 
 export const Navbar = () => {
@@ -8,7 +7,7 @@ export const Navbar = () => {
 
     return(
         <div>
-            <button onClick={handleToggleAuth}>
+            <button variant="text" onClick={handleToggleAuth}>
                 {isTog ? "Sign-Out" : "Sign-In"}
             </button>
         </div>

@@ -1,0 +1,8 @@
+form>div>input{
+    border: 1px solid #ffff;
+    background-color:blueviolet;
+    color: #ffff;
+    width:80px;
+    font-size: 18px;
+    margin-top:2%;
+  }

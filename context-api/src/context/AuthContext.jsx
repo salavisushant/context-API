@@ -17,7 +17,7 @@ export const AuthContextProvider = ({children}) =>{
 
     const handleLogin = (username) => {
         setIsAuth (true);
-        setToken(nanoid(10)+" "+username)
+        setToken(nanoid(10)+" and user is "+username)
     }
     const value ={isAuth,isTog,token,handleLogin,handleToggleAuth};
 

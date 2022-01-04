@@ -1,6 +1,7 @@
 import {AuthContext} from "../context/AuthContext";
 import {useContext,useState} from "react";
 import { Form } from "./Form";
+import "./form.css";
 
 export const LoginForm = ()=>{
     const {handleLogin} = useContext(AuthContext);

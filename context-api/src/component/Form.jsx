@@ -1,4 +1,4 @@
-
+import "./navbar.css";
 export const Form = (props) => {
     const{onSubmit,children,title} = props;
 

@@ -1,0 +1,18 @@
+Form{
+    font-size:24px;
+    border:1px solid black;
+    width:50%;
+    margin-left:25%;
+    height:200px;
+    background-color: #03A9F4;
+}
+
+Form>input {
+    border: none;
+    border-bottom: 2px solid black;
+    width:70%;
+    font-size:24px;
+    color:black;
+    background-color: #03A9F4;
+  
+}
